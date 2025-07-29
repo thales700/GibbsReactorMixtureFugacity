@@ -18,21 +18,18 @@ O código é organizado em módulos com responsabilidades bem definidas:
 
 ├── Reforma/
 │   ├── ReatorDeGibbs/
-│   │   ├── GibbsMinimization.py    # <-- Módulo principal com o otimizador
-│   │
+│   │   └── GibbsMinimization.py           # <-- Módulo principal com o otimizador
 │   ├── Molecula/
-│   │   ├── Molecula.py             # <-- Classe principal que define uma espécie
-│   │   └── DataBase.py             # <-- BANCO DE DADOS para adicionar/editar moléculas
-│   │
+│   │   ├── Molecula.py                    # <-- Classe principal que define uma espécie
+│   │   └── DataBase.py                    # <-- BANCO DE DADOS para adicionar/editar moléculas
 │   ├── ConstanteDeEquilibrio/
-│   │   └── ConstanteDeEquilibrio.py  # <-- Calcula propriedades termodinâmicas (dG, dH) na T do sistema
-│   │
-│   ├── Fugacidade/
-│   │   ├── PengRobinsonPuro.py     # <-- Fugacidade de componentes puros
-│   │   └── FugacidadeMisturaPengRobinson.py # <-- Coeficientes de fugacidade em misturas
+│   │   └── ConstanteDeEquilibrio.py       # <-- Calcula propriedades termodinâmicas (dG, dH)
+│   └── Fugacidade/
+│       ├── PengRobinsonPuro.py            # <-- Fugacidade de componentes puros
+│       └── FugacidadeMisturaPengRobinson.py # <-- Coeficientes de fugacidade em misturas
 │
-├── FirstReactor.py                 # <-- Exemplo de script para simular o 1º reator
-└── SecondReactor.py                # <-- Exemplo de script para simular o reator acoplado
+├── FirstReactor.py                        # <-- Exemplo de script para simular o 1º reator
+└── SecondReactor.py                       # <-- Exemplo de script para simular o reator acoplado
 
 ## Como Começar
 
