@@ -16,7 +16,7 @@ O software utiliza a abordagem de minimização direta da energia livre de Gibbs
 
 O código é organizado em módulos com responsabilidades bem definidas:
 
-'''
+```
 ├── Reforma/
 │   ├── ReatorDeGibbs/
 │   │   └── GibbsMinimization.py           # <-- Módulo principal com o otimizador
@@ -31,7 +31,7 @@ O código é organizado em módulos com responsabilidades bem definidas:
 │
 ├── FirstReactor.py                        # <-- Exemplo de script para simular o 1º reator
 └── SecondReactor.py                       # <-- Exemplo de script para simular o reator acoplado
-'''
+```
 ## Como Começar
 
 Siga os passos abaixo para configurar o ambiente e executar uma simulação.
